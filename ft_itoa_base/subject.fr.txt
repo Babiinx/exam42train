@@ -1,0 +1,20 @@
+Nom de l'affectation : ft_itoa_base
+Fichiers attendus : ft_itoa_base.c
+Fonctions autorisées : malloc
+--------------------------------------------------------------------------------
+
+Ecrivez une fonction qui convertit une valeur entière en une chaîne de caractères à terminaison nulle en utilisant la base spécifiée et qui stocke le résultat dans un tableau de caractères que vous devez utiliser.
+en utilisant la base spécifiée et qui stocke le résultat dans un tableau de caractères que vous devez allouer.
+allouer.
+
+La base est exprimée sous la forme d'un entier, de 2 à 16. Les caractères composant
+la base sont les chiffres de 0 à 9, suivis des lettres majuscules de A à F.
+
+Par exemple, la base 4 serait « 0123 » et la base 16 « 0123456789ABCDEF ».
+
+Si la base est 10 et que la valeur est négative, la chaîne résultante est précédée du signe moins (-).
+signe moins (-). Avec toute autre base, la valeur est toujours considérée comme non signée.
+
+Votre fonction doit être déclarée comme suit :
+
+char *ft_itoa_base(int valeur, int base) ;

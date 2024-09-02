@@ -1,0 +1,15 @@
+Nom de l'affectation : sort_int_tab
+Fichiers attendus : sort_int_tab.c
+Fonctions autorisées :
+--------------------------------------------------------------------------------
+
+Ecrivez la fonction suivante :
+
+void sort_int_tab(int *tab, unsigned int size) ;
+
+Elle doit trier (sur place) le tableau int 'tab', qui contient exactement les membres 'size', dans l'ordre croissant.
+dans l'ordre croissant.
+
+Les doubles doivent être préservés.
+
+L'entrée est toujours cohérente.
