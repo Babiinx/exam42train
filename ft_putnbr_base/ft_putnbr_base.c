@@ -6,7 +6,7 @@
 /*   By: gaboidin <gaboidin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/02 16:15:12 by gaboidin          #+#    #+#             */
-/*   Updated: 2024/09/02 16:54:24 by gaboidin         ###   ########.fr       */
+/*   Updated: 2024/09/02 17:04:19 by gaboidin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_strlen(char *str)
 	i = 0;
 	while (str[i])
 		i++;
-	return (1);
+	return (i);
 }
 
 int	ft_is_valid(char *base, int size)
