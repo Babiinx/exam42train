@@ -3,21 +3,21 @@ Expected files   : inter.c
 Allowed functions: write
 --------------------------------------------------------------------------------
 
-Write a program that takes two strings and displays, without doubles, the
-characters that appear in both strings, in the order they appear in the first
-one.
+Ecrire un programme qui prend deux chaînes de caractères et affiche, sans double, les caractères qui apparaissent dans les deux chaînes, dans l'ordre où ils apparaissent dans la première chaîne.
+caractères qui apparaissent dans les deux chaînes, dans l'ordre où ils apparaissent dans la première.
+première.
 
-The display will be followed by a \n.
+L'affichage sera suivi d'un \n.
 
-If the number of arguments is not 2, the program displays \n.
+Si le nombre d'arguments est différent de 2, le programme affiche \n.
 
-Examples:
+Exemples :
 
-$>./inter "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+$>./inter « padinton » « paqefwtdjetyiytjneytjoeyjnejeyj » | cat -e
 padinto$
 $>./inter ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
 df6ewg4$
-$>./inter "rien" "cette phrase ne cache rien" | cat -e
+$>./inter « rien » « cette phrase ne cache rien » | cat -e
 rien$
 $>./inter | cat -e
 $
